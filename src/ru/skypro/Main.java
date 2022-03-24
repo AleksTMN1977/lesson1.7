@@ -1,5 +1,7 @@
 package ru.skypro;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,10 +21,11 @@ public class Main {
 
     public static void task2() {
         String fullName = "Иванов Семён Семёнович";
-        String[] words = fullName.split(" ");
-        for (String word : words) {
-            System.out.print(word);
-        }
-
+        String[] arrStrings1 = fullName.split(" ");
+        String[] arrStrings2 = fullName.split("");
+        String fullName1 = fullName.replace('ё', 'е');
+        System.out.print(fullName1);
     }
+
 }
+
