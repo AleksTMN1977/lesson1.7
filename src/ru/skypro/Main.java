@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+        task1();
         task2();
 
     }
@@ -24,7 +25,7 @@ public class Main {
         String[] arrStrings1 = fullName.split(" ");
         String[] arrStrings2 = fullName.split("");
         String fullName1 = fullName.replace('ё', 'е');
-        System.out.print(fullName1);
+        System.out.print("Данные ФИО сотрудника — " + fullName1);
     }
 
 }
